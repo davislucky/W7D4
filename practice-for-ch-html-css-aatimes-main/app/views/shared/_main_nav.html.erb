@@ -1,30 +1,34 @@
 <header class="main-nav">
 	<nav class="left-nav">
 		<ul>
-      <li data-controller="sections-sidebar"> 
+      <li data-controller="sections-sidebar">
         <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
+
           <i class="fa-solid fa-bars"></i>
-          <span>sections</span>
+          <button type ="button" name="section">Section</button>
         </div>
       </li>
 			<li data-controller="modal">
         <div id="search-modal-btn" data-action="click->modal#toggleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <span>search</span>
+          <button type ="button" name="search">Search</button>
         </div>
 			</li>
 		</ul>
 	</nav>
   <nav class="right-nav">
 		<ul>
-      <li data-controller="sections-sidebar"> 
+      <li data-controller="sections-sidebar">
+      <div class="sub">
         <!--<div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">//-->
-          <span>Subscribe Now</span>
+          <input type ="button" name="subscribe" value="Subcribe Now">
         </div>
       </li>
 			<li data-controller="modal">
+      <div class="log">
         <!--<div id="search-modal-btn" data-action="click->modal#toggleModal">//-->
-          <span>Log In</span>
+          <input type ="button" name="subscribe" value="Log In">
+        </div>
         </div>
 			</li>
 		</ul>
