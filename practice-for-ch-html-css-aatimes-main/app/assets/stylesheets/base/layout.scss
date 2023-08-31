@@ -7,13 +7,16 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
+	background-color: blue;
+	border-color: red;
+	color: black;
 	// font-weight:
 	// padding:
 	// border-radius:
@@ -25,8 +28,8 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: grey;
+	border-color: black;
 }
 
 /*

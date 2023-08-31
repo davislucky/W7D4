@@ -5,17 +5,17 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  margin: 10px;
-  padding: 30px;
-  border: aliceblue;
-  outline: red;
-  // font:
-  color: black;
-  // text-align: 
-  text-decoration: none;
-  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  border: inherit;
+  outline: inherit;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
   box-sizing: inherit;
-  background: white;
+  background: inherit;
 }
 
 ol, ul {
@@ -53,5 +53,5 @@ input[type="submit"] {
 .group:after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
 }

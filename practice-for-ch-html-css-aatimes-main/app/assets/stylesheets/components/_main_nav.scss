@@ -6,14 +6,15 @@
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  justify-content: left;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      padding-left: 20px;
     }
   }
 
