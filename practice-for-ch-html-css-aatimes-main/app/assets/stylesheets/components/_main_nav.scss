@@ -1,32 +1,43 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-nav > ul,
 .right-nav > ul {
   display: flex;
   justify-content: left;
+  padding-top: 0;
 }
 
 .left-nav {
-
+  // display: flex;
+  // justify-content: space-between;
   > ul {
     > li {
       padding-left: 20px;
+      margin-left: 0px;
     }
   }
+  i {
 
+  }
   span {
-    
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
 .right-nav  {
+  display: flex;
+  justify-content: right;
+  align-items: center;
   > ul {
     > li {
-      
+      margin-right: 20px;
+      margin-top: 0px;
     }
 
     > li:last-of-type {
@@ -34,8 +45,9 @@
     }
   }
   
-  i {
-    
+  span {
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
   }
 }
 
